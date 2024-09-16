@@ -6,7 +6,7 @@ export const CutCornerButton = (props: ComponentPropsWithoutRef<"button">) => {
   return (
     <button
       className={twMerge(
-        "bg-fuchsia-500/20 px-4 py-2 font-extrabold uppercase font-heading text-sm tracking-wide relative",
+        "bg-transparent px-4 py-2 font-extrabold uppercase font-heading text-sm tracking-wide relative",
         className
       )}
     >
